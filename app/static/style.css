@@ -40,18 +40,39 @@ body {
 }
 
 #result-label{
-    font-family:emoji;
-    font-size: 2rem;
-    color: #D29D2B;
-    font-weight: 500;
+    font-size: 1.6rem;
+    color: #5D8BF4 !important;
 }
 
 #severity-label{
-    font-family:emoji;
-    font-size: 2rem;
-    color: #D29D2B;
-    font-weight: 500;
+   
+    font-size: 1.6rem;
+    color: #5D8BF4 !important;  
 }
+.guidance{
+    background-color: #E0DDAA;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 90px;
+    display: inline-block;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+#severity-info{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2rem;
+    color: #8492a6 !important;
+}
+
+#result-info{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2rem;
+    color: #8492a6 !important;
+}
+
+
 @media screen and (max-width: 1000px) {
     .greeting {
         font-size: 2.5rem;
