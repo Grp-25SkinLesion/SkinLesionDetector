@@ -138,6 +138,8 @@ function severity() {
     else{
       return;
     }
+    el("title-id").innerHTML='This is a pre-diagnosis report.'
+    el("guidance-id").innerHTML='Your health is our most important concern.Try reaching your dermatologists and <br>make sure to have proper medications.'
     el("analyze-button").innerHTML = "Analyze";
   };
   
