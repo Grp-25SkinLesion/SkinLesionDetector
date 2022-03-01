@@ -104,18 +104,46 @@
         <button type="button" class="btn btn-outline-info btn-lg" id='analyze-button' style="font-family: 'Roboto', sans-serif;" onclick='run()'>Analyze  my Skin Problem</button>
         <!-- <button type="button" class="btn btn-outline-info btn-lg" id='analyze-button' style="font-family: 'Roboto', sans-serif;" onclick='severity()'>Severity of my Skin Problem</button> -->
       </div>
-      <div class="results display_none" id="results">
-        <h1>Your results are here...</h1>
-        <div class='result-label '>
-          <label id='result-label'></label>
+
+
+      <div class="results display_none row" id="results"> 
+
+        <h2 style="text-align: center;">Advice!</h2>
+
+        <div class="guidance">
+          <h4>This is not a actual medical diagnosis</h4>
+          <p></p>
         </div>
-        <div class='severity-label'>
+       
+       
+        <div class='col-lg-6 mb-4'>
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">Benign/Malignant Classification</h5><hr>
+            <h6 class="card-subtitle mb-2 text-muted"><div class='result-label '>
+              <label id='result-label'></label>
+            </div></h6>
+            <p class="card-text"><label id='result-info'></label></p>
+          </div>
+        </div>
+       </div>
+
+<div class="col-lg-6 mb-4">
+    <div class="card" style="width: 43rem;">
+      <div class="card-body">
+        <h5 class="card-title">Skin Lesion Classification</h5><hr>
+        <h6 class="card-subtitle mb-2 text-muted"><div class='severity-label'>
           <label id='severity-label'><label>
           </div>
-       </div>
+        </h6>
+        <p class="card-text"><label id='severity-info'></label></p>
+       
+      </div>
     </div>
   </div>
-
+    </div> 
+    </div>
+  </div>
 <footer>
   <div class="row">
     <div class="col-lg-12 col-sm-12">
