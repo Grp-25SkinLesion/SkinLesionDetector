@@ -101,6 +101,12 @@ body {
     .instruction{
         font-size: 2rem;
 	}
+	.guidance{
+    margin-left: 10px;
+	}
+	.card{
+    margin-bottom: 20px;
+	}
     
   }
 
