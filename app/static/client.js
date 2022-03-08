@@ -148,8 +148,8 @@ function severity() {
   return result;
 }
 
-function run(){
-  analyze()
-  severity()
+async function run(){
+  await analyze()
+  await severity()
   el("results").classList.remove("display_none")
 }
